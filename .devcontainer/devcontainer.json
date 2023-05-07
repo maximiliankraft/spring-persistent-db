@@ -10,11 +10,12 @@
 			"version": "none",
 			"installMaven": "false",
 			"installGradle": "true"
-		}
+		},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [8080, 80],
+	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "java -version"
